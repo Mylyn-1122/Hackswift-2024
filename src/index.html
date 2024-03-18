@@ -1,9 +1,31 @@
 <head>
-	
+	<!-- Load plotly.js into the DOM -->
 	<script src='https://cdn.plot.ly/plotly-2.30.0.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+<style>
+  div {
+  display: flex;
+  align-items: left;
+  align-self:left;
+  margin-right:4px;
+}
+  h1{
+    text-align:center;
+    color: #000080;
+    background-color: #ADD8E6;
+  }
+  p{
+    text-align:center;
+  }
+  </style>
 </head>
 
 <body>
-	<div id='map' style="width:1200px;height:500px;"></div>
+  <h1>
+    Food Insecurity in the World
+    </h1>
+	<div id='map' style="width:1200px;height:500px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <hr>
+          <h1> Additional Info</h1>
+          <p>This map displays the intensity of the global hunger crisis, with 0 being of the least concern to 50 being of the most concern. With the rise of climate change, food insecurity is steady increasing amoung nations with less wealth. In order to provide aid, this map will link to resources for donating food. Though this map is currently unfinished, we encourage users to learn more about the food crisis and support these countries.</p>
 </body>
